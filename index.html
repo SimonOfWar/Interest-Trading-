@@ -24,48 +24,68 @@
 		    font-display: swap;
 		}
 
-		/*Styles*/
+/*Styles*/
+
+/*ALWAYS sttart with index but you can upload other html files for redirection*/
 
 nav, body, h1, h2, p, footer, section, header {margin:0px; padding: 0px;}
-	html{margin:0px; padding:0px; line-height: 1.5;}
+	html{margin:0px; padding:0px; line-height: 1.5; font-size: 16px; word-break:keep-all; width:100%;}
 	nav{background:black; margin:auto; text-align:center; margin:auto; display:flex; width:100%;}
 	li{list-style-type: none; color: white;}
-		a{display: block; text-decoration: none; padding: 0px 10px; text-align: center; color: white;}
-		a:hover{background: black; color: deeppink; transition}
-	header{margin: auto; background: deeppink; color: white; padding: 350px 0px; text-align: center; }
-	h1{margin-left: auto;}
-	h2{margin: auto; width:800px; padding: 30px 20px; background: black; font-size: 50px; text-align: center;}
-	h3{margin:auto; padding:400px 0px ; color: yellow; font-size: 25px; font-family: 'Pretendard-SemiBold'; text-align: center}
-	section{padding: 10px 0px; margin: auto; background: black}
+		a{display: block; text-decoration:none; padding:0px 10px; text-align:center; color:white;}
+		a:hover{background:black; color:deeppink; transition}
+	header{margin: auto; background: deeppink; color: white; padding: 350px 0px; text-align:center; }
+	h1{margin-left: auto; font-size:8rem;}
+	h2{margin:auto; width:800px; padding:30px 20px; font-size:3.5rem; text-align:center;}
+	h3{margin:auto; padding:400px 0px; font-size: 3rem; font-family: 'Pretendard-SemiBold'; text-align: center}
+	section{padding:0px 0px; margin: auto; background: black}
 	div{width: 800px; margin: auto ;}
 	img{width: 100%; margin: auto; }
-	p{padding:10px 0px; width:800px ; margin: auto; color: white; font-size: 20px; }
-	footer{margin: auto; padding: 10px 10px; color:violet; font-size: 12px; font-family: 'Pretendard-Light'; text-align: center; background: black;}
+	p{padding:10px 0px; width:800px ; margin: auto; color: white;}
+	/*1 rem = 16px*/
+	footer{margin: auto; padding: 10px 10px; color:violet; font-size: 12px; font-family: 'Pretendard-Light'; text-align:center; background:black;}
 	.navigation{color: white; margin:auto; padding: 5px 0px ;display: flex; width: 1200px; justify-content: space-between; }
 	.logo{color:white; font-family:'Pretendard-Bold'; font-size:20px; text-align:left; width:400px}
 	.menu{color: white; font-family: 'Pretendard-Regular'; font-size: 15px; display: flex; }
 	.trading{font-family: 'Lyno-Stan'; line-height:1; font-size:80px; text-align:center;}
 	.bigmargin{margin-top:40px;}
-	.biggermargin{margin-top:500px;}
-	.contents{width:80%; margin:auto; padding:100px; position:relative; background:black; color:white;}
-	.manysuchcases{width:70%; margin:auto; position:relative; top:0px; right:220px; }
-	.manysuchcases2{width:70%; margin:auto; position:relative; bottom:70px; left:460px; }
-	.manysuchcases3{width:70%; margin:auto; position:relative; bottom:150px; right:220px; }
-	.haveyouever{color:white; position:relative; bottom:5px; right:195px; margin:auto; font-family:'pretendard-bold'; font-size:20px; padding-bottom:50px;}
-	.haveyouever2{color:white; position:relative; bottom:70px; left:150px; margin:auto; font-family:'pretendard-bold'; font-size:20px; padding-bottom:50px; text-align:right;}
-	.haveyouever3{color:white; position:relative; bottom:150px; right:130px; margin:auto; font-family:'pretendard-bold'; font-size:20px; padding-bottom:50px;}
-	.pinkdiamond{position:relative; margin:auto; bottom:70px; left:0px; text-align:center;}
-	.canhelp{position:relative; margin:auto; top:0px; left:0px; text-align:center; color:white; font-family:'pretendard-bold'; font-size:80px; }
-	.foryou{margin:auto; width:1000px; padding:200px 0px; background:url(ET.png); background-size:105%; background-attachment:fixed; color:white; opacity:100%; text-shadow:0px 0px 20px deeppink; text-align:center;}
-	.foryoutitle{color: white; opacity: 100%; font-family:'Pretendard-Bold'; font-size:80px; text-align:center;}
-	.foryoutext{color: white; opacity: 100%; font-family:'Pretendard-Bold'; font-size:30px; text-align:center;}
-	.subliminal{margin: auto; padding: 400px 320px; background: url(Blink.gif) ; background-size: 10% ; background-attachment: fixed; color: deeppink; opacity: 100%; text-shadow: 0px 0px 20px deeppink; text-align:center;}
-	.subliminalinfo{position:relative; color:white; opacity:100%;font-family:'Pretendard-Bold'; font-size:40px; text-align:center; padding-bottom:50px;}
-	.subliminaltext{position:absolute; color: white; opacity: 100%; font-family:'Lyno-Stan'; font-size:70px; text-align:center; animation:zoom 0.8s linear infinite alternate}
+	.biggermargin{margin-top:100px;}
+	.contents{width:100%; margin:auto; position:relative; background:black; color:white; padding:100px 0px;}
+	.question{width:80%; margin-top:150px; margin-bottom:150px ; padding:100px; position:relative; background:black; font-family:'pretendard-bold'; text-align:center; color:white; text-shadow:0px 0px 40px deeppink;}
+	.manysuchcases{width:100%; margin:auto; position:relative; top:0px; left:0px; align-content:center; display:flex; background:url(Doomer.png); background-size:100%; background-position-y:-200px; background-attachment:fixed; padding: 600px 0px;}
+	.doomer{color:deeppink; position:relative; font-size:2rem; width:240px;}
+	.doomertext1{position:relative; right:50px; bottom:500px; width:200%;}
+	.doomertext2{position:relative; right:100px; top:0px; width:200%;}
+	.doomertext3{position:relative; right:200px; top:520px; width:200%;}
+	.gradient{background:linear-gradient(180deg, black, deeppink); width:100%; margin:auto; position:relative; align-content:center; background-size:100%;}
+	.pinkdiamond{position:relative; margin:auto; bottom:0px; left:0px; text-align:center;}
+	.sectionpink{padding:10px 0px; margin:auto; background:deeppink}
+	.canhelp{position:relative; margin:auto; bottom:240px; left:0px; text-align:center; color:white; font-family:'pretendard-bold'; font-size:3rem; }
+	.interestlistbg{background:black; width: 100%; height:70px; position:absolute; top:4640px; left:0px; transform-origin:bottom; z-index:999; text-overflow:clip; overflow:hidden;}
+	.interestlistbg2{background:black; width: 100%; height:70px; position:relative; bottom:1840px; left:0px; transform-origin:bottom; z-index:999; text-overflow:clip; overflow:hidden;}
+	.interestlistbg3{background:black; width: 100%; height:70px; position:relative; bottom:300px; left:0px; transform-origin:bottom; z-index:999; text-overflow:clip; overflow:hidden;}
+	.interestlist{font-family:'Lyno-Stan'; text-shadow:0px 0px 20px deeppink; font-size:2rem; right:100%; position:absolute; transform:translateX(-50%); animation:scroll 10s linear infinite; white-space:nowrap; animation-play-state:running;}
+	.collage{font-family:'Lyno-Stan'; color:white; position:relative; }
+	.myinterests{text-align:left; bottom:200px; right:200px; font-size:3rem; position:relative;}
+	.cannowbe{text-align:right; bottom:1760px; left:200px; font-size:3rem; position:relative;}
+	.yours{text-align:right; bottom:2065px; left:200px; font-size:5rem; position:relative;}
+	.thisis{text-align:right; font-family:'Pretendard-Bold'; font-size:1.5rem; position:relative; left:200px; bottom:2000px; color:white; line-height:1}
+	.buthow{position:relative; left:30px; bottom:1650px; width:120%}
+	.subliminal{width:100%; margin: auto; padding: 400px 0px; background:url(Blink.gif) ; background-size:10% ; background-attachment:fixed; color:deeppink; opacity: 100%; text-shadow: 0px 0px 20px deeppink; text-align:center; position:absolute; left:0px; top:8300px;}
+	.subliminalinfo{position:absolute; color:white; opacity:100%;font-family:'Pretendard-Bold'; font-size:2rem; text-align:center; padding-bottom:50px; top:280px; left:330px}
+	.subliminaltext{position:absolute; color: white; opacity: 100%; font-family:'Lyno-Stan'; font-size:10rem; text-align:center; animation:zoom 0.8s linear infinite alternate; left:330px; top:350px}
+	.subliminalinfo2{position:absolute; color:white; opacity:100%; font-family:'Pretendard-Bold'; font-size:2rem; text-align:center; padding-bottom:50px; top:480px; left:330px}
+	.disclaimer{position:absolute; color:white; opacity:100%; text-align:center; padding-bottom:50px; top:600px; left:330px; font-size:0.6rem;}
+	.rulez{position:relative; left:30px; bottom:530px; width:120%}
+	.post{position:relative; margin:auto; bottom:0px; left:0px; text-align:center; font-family:'Lyno-Stan'; font-size: 2rem; text-shadow:0px 0px 20px deeppink; padding:200px 0px;}
+	.package{position:relative; margin:auto; bottom:0px; left:40px; text-align:center; font-family:'Pretendard-Bold'; font-size:4.5rem; text-shadow:0px 0px 20px deeppink; padding:20px 0px; display:flex;}
+	.icons{display:flex;position:relative; margin:auto; bottom:110px; left:0px; text-align:center; width:85%; }
+	.desc{position:relative; margin:auto; bottom:0px; right:170px; text-align:left; font-family:'Pretendard-Bold'; font-size:1.8rem; text-shadow:0px 0px 20px deeppink}
+
+	@keyframes scroll{0%{transform:translateX(100%);}100%{transform:translateX(-100%);}}
 	@keyframes zoom{from{font-size:60px}to{font-size:70px}}
 
-
-</style>
+	</style>
 <title>Interest Trading</title>
 </head>
 <body>
@@ -93,54 +113,106 @@ nav, body, h1, h2, p, footer, section, header {margin:0px; padding: 0px;}
 			<h1>Interest<br>Trading</h1>
 		</div>
 	</header>
+	<section class="contents">
+		<div class="question">
+			<h2>혹시, 이런 생각을 자주 하시나요?</h2>
+		</div>
+	</section>
+	<section class="manysuchcases">
+		<div class="doomer">
+			<p class="doomertext1"><img src="Text1.png"></p>
+		</div>
+		<div class="doomer">
+			<p class="doomertext2"><img src="Text2.png"></p>
+		</div>
+		<div class="doomer">
+			<p class="doomertext3"><img src="Text3.png"></p>
+		</div>
+	</section>
 	<section>
 		<div class="contents">
-			<p><img src="Doomscrolling.png" class="manysuchcases"></p>
-			<p class="haveyouever">의미없이 시간을 보내고 싶지 않지만, 정작 하고 싶은 건 없다고요?</p>
+			<p class="biggermargin"></p>
 		</div>
-		<div class="contents">
-			<p><img src="BatemanStare.png" class="manysuchcases2"></p>
-			<p class="haveyouever2">한때는 행복했던 인생, 재미가 없고 만사가 귀찮다고요?</p>
-			<p>(아직 작업중입니다..)</p>
+		<div class="gradient pinkdiamond">
+			<p><img src="PinkDiamond.png" style="width:10%; padding-bottom:50px;"></p>
+			<p><img src="PinkDiamond.png" style="width:10%; padding-bottom:50px;"></p>
+			<p><img src="PinkDiamond.png" style="width:10%; padding-bottom:50px;"></p>
+			<p class="sectionpink"></p>
 		</div>
-		<div class="contents">
-			<p><img src="ShinjiSit.png" class="manysuchcases3"></p>
-			<p class="haveyouever3">마음 속에서 왠지 모를 공허함이 느껴지신다고요?</p>
-		</div>
-		<div class="bigmargin">
-			<p></p>
-		</div>
-		<div class="pinkdiamond">
-			<p><img src="PinkDiamond.png" style="width:5%; padding-bottom:50px;"></p>
-			<p><img src="PinkDiamond.png" style="width:5%; padding-bottom:50px;"></p>
-			<p><img src="PinkDiamond.png" style="width:5%; padding-bottom:50px;"></p>
-		</div>
+	</section>
+	<section class="sectionpink">
 		<div class="canhelp">
-			<h2>이 모든 걸 싹 다! 잊게 해드리겠습니다!!!</h2>
+			<h3>이 모든 걸 싹 다! 잊게 해드리겠습니다!!!</h3>
 		</div>
-	</section>
-	<section>
-		<div class="biggermargin"></div>
-		<div class="foryou">
-			<p class="foryoutitle">제 관심사를, 당신에게.</p>
-			<p class="bigmargin"></p>
-			<p></p>
-			<p class="foryoutext">깊게 몰두할 수 있는 분야,<br>그리고 몰두할 수 있는 능력까지!</p>
-			<p></p>
-			<p class="foryoutext">관심사만을 삶의 원동력으로 삼아,<br>(만) 22년 살아온 제가 보장할 수 있는 강한 효력!</p>
+		<div class="interestlistbg">
+			<p class="interestlist">Don't Hug Me I'm Scared Team Fortress 2 Spiderman Cats, the Animal Smile For Me Steven Universe Inscryption Breaking Bad Don't Hug Me I'm Scared Team Fortress 2 Spiderman Cats, the Animal Smile For Me Steven Universe Inscryption Breaking Bad Don't Hug Me I'm Scared Team Fortress 2 Spiderman Cats, the Animal Smile For Me Steven Universe Inscryption Breaking Bad</p>
 		</div>
-	</section>
-	<section>
+		<div class="collage">
+			<p class="myinterests">My interests...</p>
+			<p><img src="Jerma.png" style="width:60%; position:relative; bottom:150px; right:200px;"></p>
+			<p><img src="Visitor.png" style="width:86.5%; position:relative; bottom:535px; left:320px;"></p>
+			<p><img src="Portal.png" style="width:50%; position:relative; bottom:500px; right:200px;"></p>
+			<p><img src="Cake.png" style="width:37%; position:relative; bottom:1142px; left:230px;"></p>
+			<p><img src="Pyro.png" style="width:37%; position:relative; bottom:1140px; left:230px;"></p>
+			<p class="cannowbe">Can now be...</p>
+			<p><img src="HalfLife.png" style="width:90.5%; position:relative; bottom:1200px; right:200px;"></p>
+			<p><img src="Saul.png" style="width:60%; position:relative; bottom:2130px; left:556px;"></p>
+			<p class="yours">Yours.</p>
+		</div>
+		<div class="thisis">
+			<p>제 관심사를, 당신에게.</p>
+			<p>깊게 몰두할 수 있는 분야, 그리고 몰두 가능한 능력까지.</p>
+			<p>관심의 범위를 넓히고, 새로운 인생을 경험해 보세요.</p>
+		</div>
+		<div class="interestlistbg2">
+			<p class="interestlist">Lemon Demon Portal No I'm Not A Human Jerma985 Half Life Sharks, the Animal Falsettos Better Call Saul Lemon Demon Portal No I'm Not A Human Jerma985 Half Life Sharks, the Animal Falsettos Better Call Saul Lemon Demon Portal No I'm Not A Human Jerma985 Half Life Sharks, the Animal Falsettos Better Call Saul</p>
+		</div>
+		<div>
+			<p class="buthow"><img src="ButHow.png"></p>
+		</div>
 		<div class="subliminal">
 			<p class="subliminalinfo">어떻게 가능하냐고요? 비결은 바로</p>
 			<p class="subliminaltext">SUBLIMINAL MESSAGING</p>
+			<p class="subliminalinfo2">미 G사에서 개발한 최신형 무의식 탐지 기술을 탑재하여, <br> 성공 확률 100% 보장 가능!!!!!!</p>
+			<p class="disclaimer">(무의식의 강한 자극으로 인한 정신적 이상 증세 등에 대해서는 일절 책임지지 않습니다.)</p>
+		</div>
+		<div>
+			<p class="rulez"><img src="Rulez.png"></p>
+		</div>
+		<div class="interestlistbg3">
+			<p class="interestlist">Tally Hall Entropy Zero Left 4 Dead 2 Tomodachi Life Living the Dream Hunt Down the Freeman Spiders, the Animal Project Hail Mary Creepypasta Tally Hall Entropy Zero Left 4 Dead 2 Tomodachi Life Living the Dream Hunt Down the Freeman Spiders, the Animal Project Hail Mary Creepypasta Tally Hall Entropy Zero Left 4 Dead 2 Tomodachi Life Living the Dream Hunt Down the Freeman Spiders, the Animal Project Hail Mary Creepypasta</p>
 		</div>
 	</section>
 	<section>
-		<div class="contents">
-			<p>WORK IN PROGRESS</p>
+		<div class="post">
+			<p>2026, the post-disappearance era</p>
+			<p class="package">!!!신상 관심 패키지 3종!!!</p>
+		</div>
+		<div class="icons">
+			<p><img src="Placeholder.png" style="width:80%;"></p>
+			<p><img src="Placeholder.png" style="width:80%;"></p>
+			<p><img src="Placeholder.png" style="width:80%;"></p>
+		</div>
+		<div class="desc">
+			<p>올해의 키워드는 종말.</p>
+			<p>1년의 휴학 생활을 즐기며 키워낸 관심사들만으로 이루어져,</p>
+			<p>과거 패키지들보다 70% 더 강한 효력을 자랑합니다.</p>
 		</div>
 	</section>
-	<section></section>
-	<section></section>
+	<section>
+		<div>
+			<p></p>
+		</div>
+	</section>
+	<section>
+		<div>
+			<p></p>
+		</div>
+	</section>
+	<section>
+		<div>
+			<p></p>
+		</div>
+	</section>
+</body>
 </body>
